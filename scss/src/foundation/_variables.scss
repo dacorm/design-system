@@ -1,0 +1,47 @@
+$green: #5ece7b;
+$green-light: #9332b0;
+
+$dark: #1d1f22;
+$dark-light: #737680;
+
+$gray: #a3a5ad;
+$gray-light: #bebfc4;
+
+$white: #fff;
+$white-dark: #f1f2f3;
+
+$red: #d12727;
+$red-light: #f8dedf;
+
+$blue: #0468db;
+$blue-light: #b4d2f4;
+
+$playfair: "Playfair", serif;
+$raleway: "Raleway", "HelveticaNeue", "Arial", sans-serif;
+
+$fs-xs: 0.75rem; // 12px
+$fs-sm: 0.875rem;
+$fs-base: 1rem;
+$fs-lg: 1.125rem;
+$fs-xl: 1.5rem;
+
+$h-1: 1.375rem;
+$h-2: 1.375rem;
+$h-3: 1rem;
+$h-4: 1.125rem;
+$h-5: 0.75rem;
+$h-6: 0.75rem;
+
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
+
+$breakpoints: (
+  md: 48rem,
+  lg: 6rem,
+  xl: 80rem,
+);
