@@ -10,7 +10,7 @@ const getComponents = () => {
     types.forEach((type) => {
         const allFiles = fs.readdirSync(`src/${type}`).map(file => ({
             input: `src/${type}/${file}`,
-            output: `src/lib/${file.slice(0, -4) + 'css'}`
+            output: `lib/${file.slice(0, -4) + 'css'}`
         }));
 
         allComponents = [
@@ -33,7 +33,7 @@ const compile = (route, filename) => {
     fs.writeFileSync(path.resolve(filename), result.css.toString())
 }
 
-compile('src/global.scss', 'src/lib/global.css');
+compile('src/global.scss', 'lib/global.css');
 
 getComponents().forEach((component) => {
     compile(component.input, component.output);

@@ -1,0 +1,21 @@
+{
+  "name": "@design-system/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dacorm/design-system.git",
+  "author": "dacorm <stolen.youth@yandex.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "3.22.1"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "playgrounds/*"
+    ]
+  },
+  "scripts": {
+    "build": "yarn lerna run build"
+  }
+}
