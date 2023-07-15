@@ -9,3 +9,13 @@
     height: $value;
   }
 }
+
+@each $fz, $value in $fontSizes {
+  .dse-text-#{$fz} {
+    font-size: $value;
+  }
+}
+
+.dse-text {
+  margin: 0;
+}

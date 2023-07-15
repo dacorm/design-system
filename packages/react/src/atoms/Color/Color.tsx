@@ -1,16 +1,16 @@
 import React, { FC } from 'react';
-import { spaces } from '../../foundation/spacing';
+import { spacing } from "@design-system/foundation";
 
 interface ColorProps {
   hexCode: string;
-  width?: keyof typeof spaces;
-  height?: keyof typeof spaces;
+  width?: keyof typeof spacing;
+  height?: keyof typeof spacing;
 }
 
 export const Color: FC<ColorProps> = ({
   hexCode,
-  width = spaces.sm,
-  height = spaces.sm,
+  width = spacing.sm,
+  height = spacing.sm,
 }) => {
   const className = `dse-width-${width} dse-height-${height}`;
 

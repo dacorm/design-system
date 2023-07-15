@@ -1,4 +1,5 @@
 import { Color } from './atoms/Color';
-import { spaces } from './foundation/spacing';
+import { Text } from "./atoms/Text";
+import { Margin } from "./atoms/Margin";
 
-export { Color, spaces };
+export { Color, Text, Margin };
