@@ -16,6 +16,8 @@
     ]
   },
   "scripts": {
-    "build": "yarn lerna run build"
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev",
+    "prettier:fix": "yarn lerna run prettier:fix"
   }
 }

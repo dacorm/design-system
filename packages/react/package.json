@@ -11,7 +11,10 @@
     "typescript": "^5.1.6"
   },
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "dev": "yarn build --watch",
+    "prettier": "prettier \"src/**/*.ts\" \"src/**/*.tsx\"",
+    "prettier:fix": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\""
   },
   "dependencies": {
     "rollup-plugin-typescript2": "^0.35.0"
